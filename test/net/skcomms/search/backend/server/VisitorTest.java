@@ -11,12 +11,12 @@ import org.junit.Test;
  * @author pelcious@sk.com
  *
  */
-public class KangTest {
+public class VisitorTest {
 
 	@Test
 	public void test() {
-		Person person = new Kang();
-		assertEquals("Kang", person.getName());
+		Person person = new Visitor("visitor");
+		assertEquals("visitor", person.getName());
 	}
 
 }
